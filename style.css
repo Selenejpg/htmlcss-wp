@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -39,7 +39,7 @@ body{
 }
 
 .end {
-    margin-top: 1%;
+    margin-top: 2%;
     text-align: center;
 
 }
@@ -133,4 +133,35 @@ h2 {
 
 .lorem {
     color: #aeaeae;
+    margin-top: 10px;
+}
+
+.contenitore1 {
+    background-image: url(./asset/img/img-1.jpg);
+    background-position: center;
+    display: block;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;  
+}
+
+.contenitore2 {
+    background-image: url(./asset/img/img-3.jpg);
+    background-position: center;
+    display: block;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;  
+}
+
+.contenitore3 {
+    background-image: url(./asset/img/banner-2.jpg);
+    background-position: center;
+    display: block;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;  
 }
