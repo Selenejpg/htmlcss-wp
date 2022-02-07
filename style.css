@@ -32,23 +32,20 @@ body{
 }
 
 .main2 {
-    background-color: #0086ff;
     width: 100%;
     height: 500px;
-    margin-top: 2%;
+    margin-top: 3%;
 
 }
 
 .end {
-    background-color: #8801fe;
-    width: 100%;
-    height: 50px;
     margin-top: 1%;
+    text-align: center;
+
 }
 
 .sec {
-    background-color: #abcfe7;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 }
 
 .first {
@@ -69,10 +66,10 @@ body{
 }
 
 .fourth {
-    width: 56%;
+    width: 54%;
     height: 385px;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
     float: left;
 }
 
@@ -112,7 +109,28 @@ a {
     font-size: 20px;
 }
 
-h2 {
+h1 {
     font-size: 40px;
     text-decoration: none;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.undertitle {
+    color: #aeaeae;
+}
+
+.article {
+    color: #aeaeae;
+}
+
+.heart::after {
+    content: ' \2665';
+    color: red;
+}
+
+.lorem {
+    color: #aeaeae;
 }
